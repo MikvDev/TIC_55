@@ -1,8 +1,9 @@
-# TIC_55
+#  Residência em TIC 55
+> Apoio à Recuperação do Rio Grande do Sul
 
-Repositório para os cursos do projeto de Residência em Tecnologia da Informação e Comunicação (TIC 55 - Apoio à Recuperação do Rio Grande do Sul)
+Este repositório contém meus estudos, exercícios e projetos desenvolvidos durante a residência promovida pela [Softex](https://softex.br) e [Brisa](https://www.brisa.org.br).
 
-## Cursos:
+# Cursos
 - Introdução à plataforma EAD da Brisa
 - Lógica de programação
 - Programação com Python
