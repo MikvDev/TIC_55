@@ -36,4 +36,30 @@ finally: # podemos usar para sempre aparecer no fim
     # O finally é essencial quando desejamos finalizar um fluxo com a limpeza do campo de preenchimento ou mesmo fechar um arquivo de texto aberto.
 
 # tambem chamadad de exceções do tipo build-in, já vem junto como padrão no python(comandos basicos )
+# seção 7.2
+# A Tabela de Caracteres
+# Imagine uma fila
+# indiana onde cada caractere tem o seu lugar fixo.
+# Nessa fila, os números vêm antes das letras maiúsculas,
+# que vêm antes das letras (minúsculas.
+#                                                                                                                                                                            CaractereCódigo (Decimal))
+# 0-48
+# 1-49
+# 9-57
+# A-65
+# a-97
+try:
+    nome = "Miguel 9argas Ferreira"
+    for c in nome:
+        if '0' <= c <= '9':
+            raise ValueError("O nome não pode conter numros.")
+    print(f"Nome digitado: {nome}")
+except ValueError as e:
+    print(f"Erro: {e}")
+except Exception as e:
+    print(f"Erro: {e}")
+finally:
+    print("Código finalizado")
 # resumo:
+
+
