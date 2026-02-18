@@ -1,0 +1,37 @@
+# Seção 8.3 - Trabalhando com CSV e JSON
+#Até este ponto, trabalhamos com interações na própria saída de códigos do Python e em interações com arquivos de texto. Mas existem também outras possibilidades mais complexas para a manipulação de arquivos com formatação e organização.
+# São exemplos:
+# CSV (Comma-Separated Values) e JSON (JavaScript Object Notation
+
+import csv 
+import json
+# abrir um arq cvs para leitura
+
+with open("arq.csv","r", newline= '') as arquivo_csv:
+    leitor_csv = csv.reader(arquivo_csv)
+    for linha in leitor_csv:
+       print(f'Nome: {linha[0]}, idade: {linha[1]}, Cidade: {linha[2]}')
+
+
+    dados = [
+        ['Eduardo',34,'São Paulo'], ['sei',23,'suzano'],
+        ['Maria', 45, 'Rio de Janeiro']
+
+    ]
+
+    with open("arq.csv","w", newline= '') as arquivo_csv:
+        escritor_csv = csv.writer(arquivo_csv)
+        
+        for linha in dados:
+            escritor_csv.writerow(linha)
+
+
+# JSON
+
+# agenda = { "nome": "Eduardo","idade": 30,"cidade": "São Loepoldo"}
+# with open('agenda.json','w') as escrita_json:
+#     json.dump(agenda, escrita_json)
+
+# print("Dados do json escrcitos com sucesso")
+
+# with open('JSON_dados.json','r') as leitura_json:
