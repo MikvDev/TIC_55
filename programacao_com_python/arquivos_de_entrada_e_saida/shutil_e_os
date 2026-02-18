@@ -1,0 +1,20 @@
+# Aqui vamos usar o shutil - outra lb para mexer em repositorios, mais funcionalidades 
+#seção 8.2
+
+
+import shutil 
+import os 
+#Aula:
+# with open("teste3_com_open","w") as arq:
+#     arq.write("Isso é uma escrita com write")
+
+# if os.path.exists("teste3_com_open"):
+#   print("Ja existe")
+# o copytree copia todo o conteudo de um repositorio para outro
+# shutil.copytree() # 2 parametros
+
+# o move, como o propia nome ja diz, ele move o conteudo de um diretorio para dentro de outro
+# shutil.move()
+
+# e o rmtree, ele remove um diretorio, não pergunta se vc tem certeza, apenas exclui tudo
+shutil.rmtree("repositorio_feito_com_mkdir")
