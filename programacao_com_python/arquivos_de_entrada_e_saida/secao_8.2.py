@@ -1,2 +1,2 @@
 # Manipulação de diretorios
-# aqui vamos
+# aqui vamos aprender a mexer com 
