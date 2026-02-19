@@ -89,3 +89,26 @@ por exemplo:
 
 ```
 - a idade pode ser calculada a partir da data de nascimento
+
+# Relacionamentos
+
+Os relacionamentos entre entidades representam suas suas associações
+Nos temos as cardialidades, sendo:
+- cardialidade 1:1 (um pra um):
+- cardialidade N:1 (muitos para um)
+- cardialiade N:N (muitos para muitos)
+
+![5.png](img/5.png)
+## Autorelacionamento
+o autorelacionamento ocorre quando uma entidade se relaciona instancias da mesma entidade
+
+
+- util para representar um autorrelacimento, como: supervisão
+Um relacionamento pode ser "zero" ou "um" no relacionamento(opcional ou obrigatoria). O maximo pode ser "um" ou "n"
+
+
+# Entidade fraca
+é um entidade que não existe sozinha ela depende de outra para existir
+ela tem um duplo retangulo
+
+> entidade tipo, é uma entidade que existe independende de suas ligações
