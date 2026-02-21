@@ -112,3 +112,14 @@ Um relacionamento pode ser "zero" ou "um" no relacionamento(opcional ou obrigato
 ela tem um duplo retangulo
 
 > entidade tipo, é uma entidade que existe independende de suas ligações
+
+# Modelo ER estendido´
+É um modelo ER +, é usado para modelar estruturas de dados em banco de dados mais abrangente
+Ele introduz:
+- herança
+- generalização/especialização
+- Agregação
+
+# Entidade generica 
+
+É como vamos fazer um objeto em uma linguagem com POO. Criamos uma entidade generica como "cliente" , cliente também é uma pessoa, e uma pessoa como no texto, pode ser fisica ou juridica
